@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 local Window = Rayfield:CreateWindow({ -- set up 
-   Name = "Core V4",-- the name of the script
+   Name = "Core V5",-- the name of the script
    LoadingTitle = "Rayfield Interface Suite",
    LoadingSubtitle = "by Sirius",
    ConfigurationSaving = {
@@ -28,10 +28,10 @@ local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Main")-- tabs for the script
 
 Rayfield:Notify({-- notfi for the script
-   Title = "core V5 (beta)",
+   Title = "core V5",
    Content = "loading CoreV5....",
    Duration = 6.5,
-   Image = 199383472,
+   Image = 4483345998,
    Actions = { -- Notification Buttons
       Ignore = {
          Name = "Okay!",
@@ -71,7 +71,7 @@ local Button = Tab:CreateButton({
    local function say(real)
       game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(real,"All")
   end
-  say("[Core V5(beta)] infinite yelid has been executed")
+  say("[Core V5] infinite yelid has been executed")
    end,
 })
 
@@ -117,19 +117,23 @@ local Button = Tab:CreateButton({
       wait(0.1)
       game.Players:Chat("gear me 00000000000000000000000000000000000000000025741198")
       wait(0.1)
-      game.Players:Chat("size others nan")
+      game.Players:Chat("size others")
       wait(0.1)
-      game.Players:Chat("tp all me")
+      game.Players:Chat("gear me 000000000000000000000025741198")
       wait(0.1)
       game.Players:Chat("gear me 0000000000000000000000000000000000025741198")
       wait(0.1)
       game.Players:Chat("gear me 0000000000000000000000000000000025741198")
       wait(0.1)
-      game.Players:Chat("noclip others")
+      game.Players:Chat("respawn others")
       wait(0.1)
       game.Players:Chat("gear others 0000000000000000000000025741198")
       wait(0.1)
       game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000025741198")
+      wait(0.1)
+      game.Players:Chat("freeze others")
+      wait(0.1)
+      game.Players:Chat("size others")
 
    end,
 })
@@ -193,9 +197,9 @@ game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
 wait(0.1)
 Rayfield:Notify({
    Title = "CoreV5",
-   Content = "gui executed in 154 ms",
+   Content = "gui executed in 151 ms",
    Duration = 6.5,
-   Image = 4483362458,
+   Image = 517933888,
    Actions = { -- Notification Buttons
       Ignore = {
          Name = "bet",
@@ -209,7 +213,7 @@ Rayfield:Notify({
 
 local players = game:GetService("Players")
 players.PlayerAdded:connect(function(player)
-   game.Players:Chat("h someone has joined")
+   game.Players:Chat("h a player has joined")
   --If you want, use a ui library to display a notif.
 end)
 
@@ -219,6 +223,6 @@ print("-- kholsnoobcrasher (dev)")
 print("AhemMRHI (auto respawn maker)")
 print("knocks (idea giver)")
 print("AyItsDamixer (a friend and helper for the h in the middel of the screen)")
-print("xq12(a friend and idead giver)")
+print("xq12(a friend and idea giver)")
 print("cofead(the welcome message)")
 print("sirus ui lib maker")
