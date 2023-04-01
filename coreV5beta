@@ -1,236 +1,71 @@
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
-local Window = Rayfield:CreateWindow({ -- set up 
-   Name = "Core V5",-- the name of the script
-   LoadingTitle = "Rayfield Interface Suite",
-   LoadingSubtitle = "by Sirius",
-   ConfigurationSaving = {
-      Enabled = false,
-      FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Big Hub"
-   },
-   Discord = {
-      Enabled = false,
-      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
-      RememberJoins = false -- Set this to false to make them join the discord every time they load it up
-   },
-   KeySystem = true, -- Set this to true to use our key system
-   KeySettings = {
-      Title = "Sirius Hub",
-      Subtitle = "Key System",
-      Note = "Join the discord (discord.gg/sirius)",
-      FileName = "SiriusKey",
-      SaveKey = false,
-      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = "bhutt"
-   }
-})
-local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
-local Section = Tab:CreateSection("Main")-- tabs for the script
-
-Rayfield:Notify({-- notfi for the script
-   Title = "core V5",
-   Content = "loading CoreV5....",
-   Duration = 6.5,
-   Image = 4483345998,
-   Actions = { -- Notification Buttons
-      Ignore = {
-         Name = "Okay!",
-         Callback = function()
-         print("The user tapped Okay!")
-      end
-   },
-},
-})
-
-local Button = Tab:CreateButton({
-   Name = "gui credit",
-   Callback = function()
-   game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n CoreV5 made by inyuhbhutt (invite only🔒) so no you cant get the script .ioKAHCoreV4 \n \n \n \n \n")
-end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "panic mode",
-   Callback = function()
-   game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n lockdown is now on bc a crasher joined. \n \n \n \n \n")
-   wait(0.1)
-   game.Players:Chat("explode others")
-   wait(0.1)
-   game.Players:Chat("respawn others")
-   wait(0.1)
-   game.Players:Chat("punish others")
-   wait(0.1)
-   game.Players:Chat("unpunish all")
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "inf yeild",
-   Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-   local function say(real)
-      game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(real,"All")
-  end
-  say("[Core V5] infinite yeild has been executed")
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "tp to pad",
-   Callback = function()
-   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-16.9137554, 8.6299963, 93.9991074, -0.999507606, -1.14548612e-07, -0.0313781202, -1.14626033e-07, 1, 6.68680333e-10, 0.0313781202, 4.26510072e-09, -0.999507606)
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "tabbed out",
-   Callback = function()
-   game.Players:Chat("name me [tabbed out]")
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "AFK",
-   Callback = function()
-   game.Players:Chat("name me [AFK]")
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "autores",
-   Callback = function()
-   game.Players:Chat("reload me")
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "c system",
-   Callback = function()
-   game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n nah jt using /c system lol \n \n \n \n \n")
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "wkick",
-   Callback = function()
-      game.Players:Chat("gear me 0000000000000000000000000000000000025741198")
-      wait(0.1)
-      game.Players:Chat("gear me 00000000000000000000000000000000000000000025741198")
-      wait(0.1)
-      game.Players:Chat("size others")
-      wait(0.1)
-      game.Players:Chat("gear me 000000000000000000000025741198")
-      wait(0.1)
-      game.Players:Chat("gear me 0000000000000000000000000000000000025741198")
-      wait(0.1)
-      game.Players:Chat("gear me 0000000000000000000000000000000025741198")
-      wait(0.1)
-      game.Players:Chat("respawn others")
-      wait(0.1)
-      game.Players:Chat("gear others 0000000000000000000000025741198")
-      wait(0.1)
-      game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000025741198")
-      wait(0.1)
-      game.Players:Chat("freeze others")
-      wait(0.1)
-      game.Players:Chat("size others")
-
-   end,
-})
-
-local Tab = Window:CreateTab("crash", 4483362458) -- Title, Image
-local Section = Tab:CreateSection("crash")-- another tab for the script
-
-local Button = Tab:CreateButton({
-   Name = "crash",
-   Callback = function()
-      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13.0838919, 8.6299963, 94.3988953, -0.992040515, 7.79336276e-08, 0.125919163, 7.45381001e-08, 1, -3.1677537e-08, -0.125919163, -2.20396235e-08, -0.992040515)
-wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-30.2840538, 41.8299904, 48.3399773, 0.994418919, -4.20508215e-08, -0.105503753, 4.21832596e-08, 1, -9.76183023e-10, 0.105503753, -3.47975737e-09, 0.994418919)
-wait(0.1)
-game.Players:Chat("gear me 94794847")
-         wait(0.1)
-         game.Players.LocalPlayer.Backpack:WaitForChild("VampireVanquisher").Parent = game.Players.LocalPlayer.Character
-         wait(0.1)
-         game.Players:Chat("size me .3")
-         wait(0.1)
-         game.Players:Chat("size me .3")
-         wait(0.1)
-         game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  [system] server crashed by inyuhbhutt \n \n \n \n \n")
-         wait(1)
-         game.Players:Chat("size me .3")
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "grab all pads",
-   Callback = function()
-   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13.0838919, 8.6299963, 94.3988953, -0.992040515, 7.79336276e-08, 0.125919163, 7.45381001e-08, 1, -3.1677537e-08, -0.125919163, -2.20396235e-08, -0.992040515)
-wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-20.6536713, 8.46999645, 93.2285156, -0.989226878, 1.1234734e-08, 0.146390408, 2.29897168e-09, 1, -6.12098106e-08, -0.146390408, -6.02138428e-08, -0.989226878)
-wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25.004015, 9.02999687, 95.0856628, -0.993504107, -4.97548989e-08, 0.113796309, -4.14006998e-08, 1, 7.5776903e-08, -0.113796309, 7.05734209e-08, -0.993504107)
-wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-28.5081959, 8.6299963, 94.1782608, -0.995079756, 3.76197242e-08, -0.0990769342, 3.61209977e-08, 1, 1.69207031e-08, 0.0990769342, 1.3258691e-08, -0.995079756)
-wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-32.4551277, 8.6299963, 93.9659882, -0.995390892, 1.03235109e-08, -0.0959005579, 1.96682404e-08, 1, -9.64965921e-08, 0.0959005579, -9.79380275e-08, -0.995390892)
-wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-36.4648056, 8.6299963, 93.653801, -0.992661357, 3.07427683e-08, 0.120927311, 1.95125871e-08, 1, -9.40513658e-08, -0.120927311, -9.1001553e-08, -0.992661357)
-wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-40.3558731, 8.46999645, 93.1650925, -0.993001461, -5.3957784e-08, 0.1181022, -5.04737159e-08, 1, 3.24914247e-08, -0.1181022, 2.6302974e-08, -0.993001461)
-wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-44.7494926, 8.6299963, 93.9981384, -0.997449219, -7.4250039e-08, 0.071380049, -7.99683733e-08, 1, -7.72533326e-08, -0.071380049, -8.27644158e-08, -0.997449219)
-   end,
-})
-
-
-local Button = Tab:CreateButton({
-   Name = "force respawn",-- bypass cmd-y users blacklist or unpunish with no admin
-   Callback = function()
-   game.Players.LocalPlayer.Character.Humanoid:Remove()
-   end,
-})
-
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13.0838919, 8.6299963, 94.3988953, -0.992040515, 7.79336276e-08, 0.125919163, 7.45381001e-08, 1, -3.1677537e-08, -0.125919163, -2.20396235e-08, -0.992040515)
-wait(0.01)
-game.Players:Chat("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n Core V5 got executed 😎 (invite only🔒)io.KAHCoreV4 \n \n \n \n \n")
-wait(0.1)
-Rayfield:Notify({
-   Title = "CoreV5",
-   Content = "gui executed in 151 ms",
-   Duration = 6.5,
-   Image = 517933888,
-   Actions = { -- Notification Buttons
-      Ignore = {
-         Name = "bet",
-         Callback = function()
-         print("The user tapped Okay!")
-      end
-   },
-},
-})
-
-
-local players = game:GetService("Players")
-players.PlayerAdded:connect(function(player)
-   game.Players:Chat("h a player has joined")
-  --If you want, use a ui library to display a notif.
-end)
-
-print("Hello "..game.Players.LocalPlayer.Name..".")
-print("credits -- inyuhbhutt (script maker)")
-print("-- kholsnoobcrasher (dev)")
-print("AhemMRHI (auto respawn maker)")
-print("knocks (idea giver)")
-print("AyItsDamixer (a friend and helper for the h in the middel of the screen)")
-print("xq12(a friend and idea giver)")
-print("cofead(the welcome message)")
-print("sirus ui lib maker")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aprilfoolscrasher/antiabuse/main/antiabuse"))();
-game.Players:Chat("gear me 16200402") -- remember "1nob" code F3X important
-wait(0.1)
-game.Players:Chat("gear me 16200204")
-wait(0.1)
-game.Players:Chat("gear me 16200508")
-wait(0.1)
-game.Players:Chat("gear me 16200420")
+6913550990;FNAF 2 Song;March 7, 2023;lux#0420
+6834218705;3DXXP PLAYAZ - PUMP DAT;March 7, 2023;Unknown
+6846153394;phonk unknown;March 7, 2023;3JBH
+2646887567;Phonk dis 3;March 7, 2023;Unknown
+6897686359;broadway - spm;March 7, 2023;Isaac_Valentino
+6770303644;Shop Junt - DJ Sacred;March 7, 2023;Unintelligible Intro
+6893776529;Luci4 - Kroxxxxroadxx;March 7, 2023;Unintelligible Intro
+6753817247;!? - lungskull;March 7, 2023;1542x1
+9124780123;Miss The Rage (Loop);March 7, 2023;sparo
+6772846771;THOT - tokyo's revenge;March 7, 2023;Unintelligible Intro
+6806140478;Sad N*gga Hours;March 7, 2023;Unknown
+6831109213;Haiti Babii - Change Ya Life;March 7, 2023;FwKiddo
+6808292148;Kid Lucifler - El Verdadero Pixzar;March 7, 2023;Unintelligible Intro
+7014573768;RIFFEY x YUNG SKELETON - TINY PANTS;March 7, 2023;Unintelligible Intro
+6953866301;MONTAGEM - EMPINA NA ONDA ( DJ C4 ) Enzzo da Sul & MC Doug ( mandelão );March 7, 2023;luck / plug
+6674211522;comethazine - hench mafia;March 7, 2023;SimulatedSpace
+8835052762;back in your cage, monkey;March 7, 2023;Unknown
+6696294740;Mista Frost - Glock In My Draws;March 7, 2023;8memphis
+6823597327;Syko - #BrooklynBloodPop!;March 7, 2023;Unintelligible Intro
+6788646778;Hella Sketchy - Rare Gem [prod. gin$eng];March 8, 2023;hellasketchers
+6724541195;if u hate roblos;March 8, 2023;KawaiiElixir
+5278041368;minecraft lesplay;March 8, 2023;Unknown
+8327114160;P*rnhub Intro (Loud);March 8, 2023;Unknown
+5686828969;da police;March 8, 2023;Unintelligible Intro
+6942391979;Delinquent Habits - Return Of The Tres;March 8, 2023;Cartel
+6742463413;Area 21 - Spaceships;March 8, 2023;rxtl
+6872126938;Young - Vacations;March 8, 2023;6aker
+6901063458;Rihanna - SOS;March 8, 2023;Unknown
+6783714255;Syko - #BrooklynBloodPop! (Alternative);March 8, 2023;5ipg
+6984999899;AA Unknown;March 8, 2023;Unintelligible Intro
+6709587570;Enfermos Pt. 1 - sadiszt;March 9, 2023;Unknown
+6529070845;Dinosaur - Kesha;March 9, 2023;Unknown
+6954025463;me proteja - ucla;March 9, 2023;Unknown
+6765683083;Ozuna - Caramelo;March 9, 2023;6perks
+6959548175;scuol4 - thasup;March 9, 2023;slashcast
+6868493025;Mystic! - EGirl;March 9, 2023;Unintelligible Intro
+6991661856;Dancing on the Sidewalk Lights Flicker;March 9, 2023;Unintelligible Intro
+6970996018;1800 - Hit ;March 9, 2023;Thxz
+6797864253;Nya! (Loop);March 9, 2023;Si6NK3T
+6897832025;islurwhenitalk - u lose;March 9, 2023;Unintelligible Intro
+7006487793;Saw you at the Party w/lilkoix [prod. RudeClub];March 9, 2023;Unintelligible Intro
+7019388713;Majed Al Esa - Ksrap;March 9, 2023;Unintelligible Intro
+7713890963;High Pitched Tone;March 9, 2023;Unknown
+7295116856;High Pitched Tone 2;March 9, 2023;Unknown
+8965046485;P*rnhub Intro;March 9, 2023;Unknown
+6973084731;Britney Spears - Till The World Ends;March 9, 2023;Unknown
+6984999899;ayyy water - I Love no Melody;March 12, 2023;Unknown
+8766691615080;N Word Spam;March 12, 2023;LS_RAT
+6819593773;Project Junt - ISVVC;March 29, 2023;Unintelligible Intro
+6911766512;MISTAKE - NISSAN PLAYA (phonk);March 29, 2023;Unintelligible Intro
+7702262254;abstractmane phonk;March 29, 2023;Unknown
+7582008632;unknown house phonk (Loop);March 29, 2023;Unknown
+8316226231;Phonk 2 (Loop);March 29, 2023;Unknown
+7001622792;Barrette;March 29, 2023;Unknown
+6924735395;Get You;March 29, 2023;Unknown
+6797422789;Don Don - Anuel;March 29, 2023;Unknown
+6925558165;Situation Critical - Platinum Blonde;March 29, 2023;Unknown
+6942052828;Brocasito - Brazil Hates You;March 29, 2023;Unknown
+7150246303;OG Loc Rap Instrumental (Loop);March 29, 2023;Unknown
+9071698640;upload showdown - shadowraze (Loop);March 29, 2023;Unknown
+6834301814;Sebastian - manuel;March 29, 2023;Unknown
+8888216980;Guy Moaning;March 29, 2023;Unknown
+1714360140;N Word Shack;March 30, 2023;Unknown
+6830002508;Hard R;March 30, 2023;Unknown
+9062549544;LAROI & Justin Bieber - Stay (Loop);March 30, 2023;Unknown
+6070263388;Gangstas Paradise (Loop);March 30, 2023;Unknown
+6689996382;Eminem - Without Me (Loop);March 30, 2023;Unknown
+6847929757;JUMEX - LONER;March 30, 2023;Unknown
+6891562780;AB Unknown;March 30, 2023;Unknown
+6782202354;Rod Wave - Tombstone;March 30, 2023;Unknown
+6937042327;stunnin - curtis waters;March 30, 2023;slashcast
